@@ -1,0 +1,86 @@
+/*
+	By: ErnestoMG @ Jun 18,2018
+*/
+
+/* canvas */
+	body{
+		margin:0
+	}
+	.outer {
+	  display: table;
+	  position: absolute;
+	  height: 100%;
+	  width: 100%;
+	}
+	.middle {
+	  display: table-cell;
+	  vertical-align: middle;
+	}
+	.inner {
+	  margin-left: auto;
+	  margin-right: auto;
+	  width: 400px;
+	}
+
+/* Estilos del botón */
+
+	.css_button_outer_box{
+
+		-moz-border-radius: 10px;
+		-webkit-border-radius: 10px;
+		border-radius: 10px;
+		
+		-webkit-box-shadow: 2px 2px 10px 1px rgba(0,0,0,0.28); 
+		box-shadow: 2px 2px 10px 1px rgba(0,0,0,0.28);
+		
+		display:inline-block;
+		cursor:pointer;
+		border:rgb(103,103,103) 2px solid;
+	}
+
+	.css_button_inner_box{
+		
+		-moz-border-radius: 10px;
+		-webkit-border-radius: 10px;
+		border-radius: 10px;
+		
+		border:white 2px solid;
+		background-color:rgb(203,203,203);
+		
+	}
+
+	.css_button_single{
+		
+		-moz-border-radius: 10px;
+		-webkit-border-radius: 10px;
+		border-radius: 10px;
+		
+		-webkit-box-shadow: 2px 2px 5px 1px rgba(0,0,0,0.5); 
+		box-shadow: 2px 2px 5px 1px rgba(0,0,0,0.5);
+		
+		border:#888 1px solid;
+		padding:10px 15px 10px 15px;
+		margin:5px;
+		background: rgb(222,222,222);
+		background: linear-gradient(180deg, rgb(222,222,222) 43%, rgb(173,173,173) 52%);
+		
+		color:rgb(136,136,136);
+		font-family:Helvetica,san-serif;
+	
+	}
+	
+	.css_button_outer_box:hover .css_button_single{
+		background: linear-gradient(rgb(220,191,17), rgb(243,175,65));
+	}
+	.css_button_outer_box:active .css_button_single{
+		background: linear-gradient(#ddd, #ccc);
+	}
+
+	.css_button_single b{
+		color:rgb(85,85,85);
+	}
+	
+	div.btn {
+		display : inline;
+	}
+	
