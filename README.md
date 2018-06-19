@@ -1,7 +1,7 @@
 # My-App
 La aplicación web en React.
 Para instalar y verlo en el navegdor, corre npm start o visita http://react-test.sitebymyself.com
-El c�digo importante se encuentra en: src/index.js y src/App.js
+El código importante se encuentra en: src/index.js y src/App.js
 
 # CSS-React-JS-Test
 Demás parte del examen.
